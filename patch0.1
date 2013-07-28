@@ -1,0 +1,14 @@
+﻿# Формат файла:
+# все строки начинающиеся с fil*space* - являются файлами
+# все строки начинающиеся с dir*space* - являются директориями и копируются с флагом -r (рекурсивно)
+# все строки начинающиеся с app*space* - являются приложениями и копируются вместе с линкованными с ними библиотеками
+# все строки начинающиеся с # являются комментарием и игнорируются
+#
+#
+app /usr/bin/git-receive-pack
+app /usr/bin/git-shell
+app /usr/bin/git-upload-archive
+app /usr/bin/git-upload-pack
+dir /usr/share/git-core
+fil /root/.profile
+#fil /share/lib/fil /gogo
